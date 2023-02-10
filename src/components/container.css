@@ -1,0 +1,36 @@
+.largeContainer{
+    width: 480px;
+    height: 670px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 25px 30px;
+}
+.heading{
+    color: #06281e;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.boxer{
+    padding: 25px;
+    border: 1px solid orange;
+}
+.boxer h4{
+    letter-spacing: 2px;
+    color: #06281e;
+}
+.boxer p{
+    color: #617d98;
+}
+.changeButon{
+    width: 100%;
+    padding: 13px;
+    border: 0;
+    outline: none;
+    background-color: #f28ab2;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1.2px;
+}
