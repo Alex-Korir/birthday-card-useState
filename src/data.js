@@ -7,7 +7,7 @@ export const data = [
     },
     {
         id:2,
-        imgg: "./images/Digina.jpg",
+        imgg: "./images/Difina.jpg",
         name: "Difina Wamboi",
         age: "20 years",
     },

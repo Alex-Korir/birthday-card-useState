@@ -19,12 +19,16 @@ const Container = () => {
           people.map((items) => {
             console.log(items);
           
-            const {name,age,id,imgg} = items;
+            const {name,age,id} = items;
             return(
               <div key={id} className="boxer">
-                <img src={imgg}/>
-                <h4>{name}</h4>
-                <p>{age}</p>
+                <div className='icon'>
+                  <img src={items.imgg} alt={name}/>
+                </div>
+                <div className='details'>
+                  <h4>{name}</h4>
+                  <p>{age}</p>
+                </div>
               </div>
             )
           })
