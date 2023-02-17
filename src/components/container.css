@@ -1,6 +1,5 @@
 .largeContainer{
     width: 480px;
-    height: 700px;
     background-color: white;
     border-radius: 3px;
     padding: 25px 30px;
@@ -14,7 +13,6 @@
 }
 .boxer{
     padding: 10px 0;
-    /* border: 1px solid orange; */
     display: flex;
     align-items: center;
     justify-content: left;
@@ -30,22 +28,15 @@
     letter-spacing: 2px;
     color: #06281e;
     margin-bottom: 4px;
-    /* border: 1px solid black; */
 }
 .details p{
     color: #617d98;
-}
-.icon{
-    /* margin: auto 0; */
-    
-    /* width: 1px solid green; */
 }
 .icon img{
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-right: 20px;
-    /* border: 1px solid red; */
 
 }
 .changeButon{

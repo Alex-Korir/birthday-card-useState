@@ -7,13 +7,13 @@ const Container = () => {
   console.log(people);
 
   function eventHandler(){
-    setPeople();
+    setPeople([]);
   }
 
   
   return (
     <div className='largeContainer'>
-      <p className='heading'>5 birthdays today</p>
+      <p className='heading'>{people.length} birthdays today</p>
       <div className='listItems'>
         {
           people.map((items) => {
