@@ -11,12 +11,12 @@ export const data = [
         name: "Difina Wamboi",
         age: "20 years",
     },
-    // {
-    //     id:3,
-    //     imgg: "./images/Elvis.jpg",
-    //     name: "Elvis Muiruri",
-    //     age: "34 years",
-    // },
+    {
+        id:3,
+        imgg: "./images/Elvis.jpg",
+        name: "Elvis Muiruri",
+        age: "34 years",
+    },
     {
         id:4,
         imgg: "./images/shikole.jpg",

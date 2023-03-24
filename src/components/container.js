@@ -10,6 +10,10 @@ const Container = () => {
     setPeople([]);
   }
 
+  const removeItem = (id) => {
+    let removal = people.filter((items)=> items.id !== id);
+    setPeople(removal);
+  }
   
   return (
     <div className='largeContainer'>
@@ -29,7 +33,9 @@ const Container = () => {
                   <h4>{name}</h4>
                   <p>{age}</p>
                 </div>
+                <button className='removeBtn' onClick={() => removeItem(id)}>Remove</button>
               </div>
+              
             )
           })
         }
